@@ -35,6 +35,8 @@ export default function IndexPageHead({ settings }: IndexPageHeadProps) {
           process.env.VERCEL_URL ? 'https://' + process.env.VERCEL_URL : ''
         }/api/og?${new URLSearchParams({ title: ogImageTitle })}`}
       />
+      <meta name="msapplication-TileColor" content="#2d89ef" />
+      <meta name="theme-color" content="#ffffff" />
     </Head>
   )
 }
