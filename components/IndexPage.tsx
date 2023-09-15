@@ -4,9 +4,9 @@ import Layout from 'components/BlogLayout'
 import HeroPost from 'components/HeroPost'
 import IndexPageHead from 'components/IndexPageHead'
 import MoreStories from 'components/MoreStories'
+import Subscribe from 'components/Subscribe'
 import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
-import Subscribe from 'components/Subscribe'
 
 export interface IndexPageProps {
   preview?: boolean
